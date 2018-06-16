@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
+        <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Forum</title>
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta name="viewport" content="width=device-width" />
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="../assets/css/material-dashboard.css?v=1.2.0" rel="stylesheet" />
+        <link href="../assets/css/demo.css" rel="stylesheet" />
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="sidebar" data-color="maroon" data-image="http://www.sepi.escasto.ipn.mx/Sitios%20de%20Interes/LOGO-POLIGUINDA-PANTONE222.jpg">
+                <div class="logo">
+                    <a href="http://www.creative-tim.com" class="simple-text">Preparación IPN</a>
+                </div>
+                <div class="sidebar-wrapper">
+                    <ul class="nav">
+                        <li>
+                            <a href="index.html">
+                                <i class="material-icons">dashboard</i>
+                                <p>Mis cursos</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./profile.html">
+                                <i class="material-icons">person</i>
+                                <p>Mi perfil</p>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="./forum.html">
+                                <i class="material-icons">content_paste</i>
+                                <p>Ayuda</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-panel">
+                <nav class="navbar navbar-transparent navbar-absolute">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#"> {{ Foro }} </a>
+                        </div>
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
+                                        <i class="material-icons">meeting_room</i>
+                                        <p class="hidden-lg hidden-md">Exit</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <form class="navbar-form navbar-right" role="search">
+                                <div class="form-group  is-empty">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                    <span class="material-input"></span>
+                                </div>
+                                <button type="submit" class="btn btn-white btn-round btn-just-icon">
+                                    <i class="material-icons">search</i>
+                                    <div class="ripple-container"></div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+                <div class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="card">
+                                    <div class="card-header" data-background-color="maroon">
+                                        <h2 class="title">Foro</h2>
+                                        <p class="category">Tu opinión y consejo nos interesa</p>
+                                    </div>
+                                    <!--Foro -->
+                                    <div class="card-content">
+                                        <div class="important-fields">
+                                            <p>* Campos obligatorios</p>
+                                        </div>
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group label-floating">
+                                                        <label class="control-label">* Título del tema</label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label>* Descripción del tema</label>
+                                                        <div class="form-group label-floating">
+                                                            <textarea class="form-control" rows="5"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button class="btn btn-primary pull-right">Publicar</button>
+                                            </div>
+                                        </form>
+                                        <div class="row foro-comment ">
+                                            <div class="col-md-3">
+                                                <img class="foro-img" src="https://estudiofotograficoxalapa.files.wordpress.com/2013/05/ingresoalbachilleratoxalapa.jpg">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="row">
+                                                    <div class="col-md-8">
+                                                        <h4><a href="blog.html">La recta tangente</a></h4>
+                                                    </div>
+                                                    <div class="comment-for-foro col-md-4">
+                                                        <a href="">11 comentarios</a>
+                                                    </div>
+                                                </div>
+                                                <p class="date-time">15/06/2018 -- 13:17</p>
+                                                <p>La tangente a una curva en un punto P, es una recta que toca a la curva solo en dicho punto llamado punto de tangencia.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row foro-comment ">
+                                            <div class="col-md-3">
+                                                <img class="foro-img" src="http://www.somac.org.mx/wp-content/uploads/2016/10/Julio-foto-taman%CC%83o-infantil.jpg">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="row">
+                                                    <div class="col-md-8">
+                                                        <h4><a href="blog.html">La enfermedad del sueño</a></h4>
+                                                    </div>
+                                                    <div class="comment-for-foro col-md-4">
+                                                        <a href="">5 comentarios</a>
+                                                    </div>
+                                                </div>
+                                                <p class="date-time">21/04/2018 -- 18:06</p>
+                                                <p>La leishmaniasis es causada por un protozoo parásito del género Leishmania, que cuenta con más de 20 especies diferentes. Se conocen más de 90 especies de flebotominos transmisores de Leishmania.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row foro-comment ">
+                                            <div class="col-md-3">
+                                                <img class="foro-img" src="https://estudiofotograficoxalapa.files.wordpress.com/2011/06/img_00461.jpg">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="row">
+                                                    <div class="col-md-8">
+                                                        <h4><a href="blog.html">Batalla del 5 de Mayo</a></h4>
+                                                    </div>
+                                                    <div class="comment-for-foro col-md-4">
+                                                        <a href="">2 comentarios</a>
+                                                    </div>
+                                                </div>
+                                                <p class="date-time">01/03/2018 -- 21:57</p>
+                                                <p>La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 text-center">
+                                            <a href="" class="btn btn-primary"><< anterior</a>
+                                            <a href="" class="btn btn-primary ">siguiente >></a>
+                                        </div>
+                                    </div>
+                                    <!--Termina Foro -->
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-header" data-background-color="maroon">
+                                        <h4 class="title">Otros cursos</h4>
+                                    </div>
+                                    <br>
+                                    <div class="course-li alert alert-info alert-with-icon" data-notify="container">
+                                        <img src="../assets/img/if_education-degree-course-university-college_2205242.png"/>
+                                        <span data-notify="message"><a href="#">Matemáticas avanzada</a></span>
+                                    </div>
+                                    <div class="course-li alert alert-info alert-with-icon" data-notify="container">
+                                        <img src="../assets/img/if_education-degree-course-university-college_2205242.png"/>
+                                        <span data-notify="message"><a href="#">Física avanzada</a></span>
+                                    </div>
+                                    <div class="course-li alert alert-info alert-with-icon" data-notify="container">
+                                        <img src="../assets/img/if_education-degree-course-university-college_2205242.png"/>
+                                        <span data-notify="message"><a href="#">Química orgánica</a></span>
+                                    </div>
+                                    <div class="course-li alert alert-info alert-with-icon" data-notify="container">
+                                        <img src="../assets/img/if_education-degree-course-university-college_2205242.png"/>
+                                        <span data-notify="message"><a href="#">Biología molecular</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="../assets/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../assets/js/material.min.js" type="text/javascript"></script>
+    <script src="../assets/js/chartist.min.js"></script>
+    <script src="../assets/js/arrive.min.js"></script>
+    <script src="../assets/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../assets/js/bootstrap-notify.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <script src="../assets/js/material-dashboard.js?v=1.2.0"></script>
+    <script src="../assets/js/demo.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        demo.initDashboardPageCharts();
+      });
+    </script>
+</html>

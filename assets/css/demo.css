@@ -1,0 +1,267 @@
+@media (min-width: 992px) {
+    .typo-line {
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+    .typo-line .category {
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+    .sidebar .nav>li.active-pro {
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+    }
+}
+
+#map {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 60px);
+    margin-top: 70px;
+}
+
+.places-buttons .btn {
+    margin-bottom: 30px
+}
+
+.space-70 {
+    height: 70px;
+    display: block;
+}
+
+.tim-row {
+    margin-bottom: 20px;
+}
+
+.tim-typo {
+    padding-left: 25%;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.tim-typo .tim-note {
+    bottom: 10px;
+    color: #c0c1c2;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    left: 0;
+    margin-left: 20px;
+    position: absolute;
+    width: 260px;
+}
+
+.tim-row {
+    padding-top: 50px;
+}
+
+.tim-row h3 {
+    margin-top: 0;
+}
+
+/* sobreescribiento */
+
+.sidebar[data-color="maroon"] .nav li.active a,
+.off-canvas-sidebar[data-color="maroon"] .nav li.active a {
+  background-color: #800000;
+  box-shadow: 0 12px 20px -10px rgba(128, 0, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(128, 0, 0, 0.2);
+}
+.card-header[data-background-color]{
+  box-shadow: 0 10px 30px -12px rgba(128, 0, 0, 0.28), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(128, 0, 0, 0.2);
+  margin: -20px 15px 0;
+  border-radius: 3px;
+  padding: 15px;
+  background-color: #800000;
+}
+
+/* cursos */
+.alert.alert-with-icon {
+  display: flex;
+}
+.teachers{
+  background-color: grey !important;
+  box-shadow: 0 12px 20px -10px rgba(255, 255, 255, 0), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 255, 255, 0) !important;
+}
+.teachers img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  padding-bottom: 0px;
+}
+.card-teacher{
+  display: grid;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+.card-teacher h2{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 20px;
+  display: contents;
+}
+.card-teacher h4{
+  container: "";
+  font-size: 12px;
+  font-weight: bold;
+  color:#fff;
+  padding-left: 10px;
+}
+
+/*  termina cursos */
+/*Foro*/
+.foro-comment h4 a{
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+.foro-comment{
+  background-color: grey;
+  padding: 3px 3px 3px 3px;
+  margin-top: 10px;
+  /*margin-left: 10px;*/
+  /*font-family: cursive;*/
+  text-align: justify;
+  border-radius: 3px;
+  color:#fff;
+}
+
+.foro-comment p{
+  /*margin: 20px 2px 20px 0px;*/
+  padding: 0px;
+  margin-top: -16px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.foro-comment h4{
+  margin: 20px 2px 20px 0px;
+  color:#fff !important;
+}
+
+.foro-img{
+  width: 70% !important;
+  height: 70% !important;
+  margin: 32px 0px 10px 12px;
+  border-radius: 50%;
+}
+
+.card-content button{
+  /*background-color: purple !important;*/
+  margin-left: 10px;
+}
+
+.important-fields{
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.date-time{
+  font-size: 11px;
+  font-style: italic;
+}
+
+.text-center a{
+  color: #fff;
+  margin-right: 40px;
+}
+
+/*.text-center a:hover{
+  color: purple;
+  margin-right: 40px;
+}*/
+
+.comment-for-foro{
+  margin-top: 15px;
+  padding: 5px !important;
+  font-weight: bold;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+
+.comment-for-foro a{
+  color: #fff;
+}
+
+/*.comment-for-foro a:hover{
+  color: purple;
+}*/
+/*Termina Foro*/
+.course-li {
+  margin: 10px;
+  padding: 0px !important;
+}
+.course-li img{
+  height: 30px;
+  width: 30px;
+  padding-top: 8px;
+}
+.course-li span{
+  padding: 10px;
+}
+
+/** Chart */
+.cont-graph:after,.cont-graph:before{display:table;content:" "}
+.cont-graph:after{clear:both}
+.graph {
+  width: 170px;
+  margin-left: 20px;
+}
+
+.graph svg {
+  width: 100%;
+  height: 100%;
+}
+
+.graph svg text {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 1.5em;
+  fill: #AEB8B8;
+}
+
+.graph svg .background {
+  fill: lightgreen;
+}
+
+.graph svg .visual {
+  fill: #4caf50;
+}
+
+.col-md-4{
+  padding-top: 15px;
+  text-align: center;
+}
+
+@media screen and  (min-width: 350px){
+  .graph{
+      width: 50%;
+      margin-left: 25%;
+  }
+  .foro-img {
+      text-align: center;
+      width: 40% !important;
+      height: 40% !important;
+      margin: 32px 0px 10px 12px;
+      border-radius: 50%;
+      /* align-content: center; */
+      /* align-self: center; */
+      -webkit-box-align: center;
+      margin-left: 30%;
+  }
+}
+
+.card-content h5{
+  font-size: 2em;
+  font-weight: bold;
+}
+.forum{
+  margin:20px;
+}
