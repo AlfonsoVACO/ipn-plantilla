@@ -265,3 +265,15 @@
 .forum{
   margin:20px;
 }
+.trophy{
+  height: 50% !important;
+  width: 50% !important;
+  border-radius: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  opacity: 0.6;
+}
+
+.complete-course{
+  opacity: 1;
+}

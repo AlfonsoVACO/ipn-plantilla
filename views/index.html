@@ -129,6 +129,11 @@
                                       <span><a href="#" class="curse-list">Ver curso</a></span>
                                     </div>
                                   </div>
+                                  <div class="row">
+                                      <div class="col-md-4 col-md-offset-4">
+                                        <img class="trophy" src="../assets/img/trophy.png"/>
+                                      </div>
+                                  </div>
                                 </div>
                             </div>
                         </div>
@@ -245,7 +250,7 @@
           donutGraph('#graph5', 0);
           donutGraph('#graph6', 0);
 
-          function runEffect(hidden, showin) { 
+          function runEffect(hidden, showin) {
             var options = {};
             $( "#" + hidden ).hide( "fade", options, 1000, callback(showin) );
           };
@@ -254,7 +259,7 @@
               $( "#"+showin ).removeAttr( "style" ).hide().fadeIn();
             }, 1000 );
           };
-          
+
           $( ".curse-list" ).on( "click", function() {
             runEffect("main-courses","secundary-list");
           });
